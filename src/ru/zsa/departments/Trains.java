@@ -12,4 +12,10 @@ public class Trains {
         this.force = force;
         this.date = date;
     }
+
+    public void work() {
+    }
+    public void repair(){
+
+    }
 }

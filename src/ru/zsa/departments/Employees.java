@@ -16,4 +16,11 @@ public class Employees {
         this.dateBorn = dateBorn;
         this.position = position;
     }
+
+    public void work(){
+
+    }
+    public void vacation(){
+
+    }
 }
