@@ -1,4 +1,4 @@
-package ru.zsa.departments;
+package ru.zsa.stations;
 
 public class Stations {
     int id;

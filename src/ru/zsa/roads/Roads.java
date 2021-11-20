@@ -1,4 +1,4 @@
-package ru.zsa.departments;
+package ru.zsa.roads;
 
 public class Roads {
     int id;

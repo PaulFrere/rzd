@@ -1,4 +1,4 @@
-package ru.zsa.departments;
+package ru.zsa.trains;
 
 public class Trains {
     int id;
