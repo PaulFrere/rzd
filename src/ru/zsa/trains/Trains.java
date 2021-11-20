@@ -1,4 +1,4 @@
-package ru.zsa.departments;
+package ru.zsa.trains;
 
 public class Trains {
     int id;
@@ -11,5 +11,11 @@ public class Trains {
         this.type = type;
         this.force = force;
         this.date = date;
+    }
+
+    public void work() {
+    }
+    public void repair(){
+
     }
 }
