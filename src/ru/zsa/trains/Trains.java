@@ -1,6 +1,6 @@
-package ru.zsa.departments;
+package ru.zsa.trains;
 
-public class Trains {
+public abstract class Trains{
     int id;
     String type;
     int force;
@@ -11,5 +11,8 @@ public class Trains {
         this.type = type;
         this.force = force;
         this.date = date;
+    }
+
+    public void work() {
     }
 }
