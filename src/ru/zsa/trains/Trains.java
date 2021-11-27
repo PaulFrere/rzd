@@ -1,6 +1,6 @@
 package ru.zsa.trains;
 
-public class Trains {
+public abstract class Trains{
     int id;
     String type;
     int force;
@@ -14,8 +14,5 @@ public class Trains {
     }
 
     public void work() {
-    }
-    public void repair(){
-
     }
 }

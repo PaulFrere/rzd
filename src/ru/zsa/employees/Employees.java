@@ -1,6 +1,6 @@
 package ru.zsa.employees;
 
-public class Employees {
+public abstract class Employees {
     int id;
     String firstName;
     String lastName;

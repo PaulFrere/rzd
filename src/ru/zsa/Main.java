@@ -27,20 +27,13 @@ public class Main {
         Electric electric = new Electric(1, "Electric locomotive", 6600, "07.02.2018");
         Locomotive locomotive = new Locomotive(1, "Locomotive", 1200, "03.05.2006");
 
-        passenger.status();
-        freight.status();
+        electric.repair(200_000, 20);
 
-        driver.route();
-        cashier.vacation();
+        locomotive.upgr(500_000, 15);
 
-        road1.work();
-        road2.repair();
+        station.upgr(100_000, 3);
 
-        station.repair();
-        halt.work();
-
-        electric.work();
-        locomotive.refueling();
+        halt.reform(3_000_000, 5_000);
 
     }
 }

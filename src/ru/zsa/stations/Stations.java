@@ -1,6 +1,8 @@
 package ru.zsa.stations;
 
-public class Stations {
+import ru.zsa.intefaces.Upgrade;
+
+public abstract class Stations implements Upgrade {
     int id;
     String name;
     String type;
@@ -13,10 +15,8 @@ public class Stations {
         this.dateBuild = dateBuild;
     }
 
-    public void work(){
-
-    }
-    public void repair(){
-
+    @Override
+    public void upgr(int sum, int time) {
+        System.out.println("Установка автоматов для продажи билетов");
     }
 }

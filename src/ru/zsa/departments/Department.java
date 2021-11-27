@@ -1,6 +1,8 @@
 package ru.zsa.departments;
 
-public class Department {
+import ru.zsa.intefaces.Upgrade;
+
+public abstract class Department implements Upgrade {
     int id;
     String name;
     long expenses;
