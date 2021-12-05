@@ -3,8 +3,8 @@ package ru.zsa.trains;
 import ru.zsa.intefaces.Upgrade;
 
 public class Electric extends Trains implements Upgrade {
-    public Electric(int id, String type, int force, String date) {
-        super(id, type, force, date);
+    public Electric(int id, String type, int force, String date, String typeCargo) {
+        super(id, type, force, date, typeCargo);
     }
 
     @Override
